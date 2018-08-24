@@ -1,0 +1,19 @@
+.noteMessage {
+  flex: 1 1 auto;
+  display: flex;
+  margin-top: 3px;
+}
+
+.noteMessage textarea {
+  flex: 1 1 auto;
+  font-size: 15px;
+  color: gray;
+  font-family: Roboto;
+  resize: none;
+  border: 0;
+  padding: 8px;
+}
+
+.noteMessage textarea:focus {
+  outline: none;
+}

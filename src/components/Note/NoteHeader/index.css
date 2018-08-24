@@ -1,0 +1,27 @@
+.noteHeader {
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+}
+
+.noteHeader a {
+  color: black;
+  height: 30px;
+}
+
+.noteHeader input[type="text"] {
+  height: 30px;
+  font-weight: bold;
+  font-family: Roboto;
+  font-size: 20px;
+  padding: 4px;
+  margin-left: 5px;
+  border: none;
+  flex: 1 1 auto;
+}
+
+.noteHeader input[type="text"]:focus {
+  outline: none;
+}

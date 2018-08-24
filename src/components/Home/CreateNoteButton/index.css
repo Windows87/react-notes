@@ -1,0 +1,15 @@
+.createNoteButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  border: 2px dashed gray;
+  margin: 8px;
+  color: gray !important;
+}
+
+.createNoteButton:hover, .createNoteButtonIcon:hover {
+  color: black !important;
+  border-color: black;
+  background-color: #9e9e9e2b;
+}
